@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="leading-normal tracking-normal text-white gradient">
+        <header class="container py-8">
+            <nav class="w-full flex justify-between items-center">
+                <div class="text-2xl uppercase text-gray-700 font-semibold">
+                    <a href="#">feltea</a>
+                </div>
+                <div class="flex items-center space-x-16 text-[14px] uppercase font-semibold ml-10 text-gray-700">
+                    <a href="#" class="relative group">
+                        <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                        Flavors
+                    </a>
+                    <a href="#" class="relative group">
+                        <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                        Store
+                    </a>
+                    <a href="#" class="relative group">
+                        <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                        Blog
+                    </a>
+                    <a href="#" class="relative group">
+                        <div class="absolute -bottom-1 w-full h-0.5 bg-black/80 scale-x-0 group-hover:scale-x-100 transition-transform"></div>
+                        About Us
+                    </a>
+                </div>
+                <div class="flex items-center space-x-8 text-white">
+                    <div class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                          </svg>
+                    </div>
+                    <div class="cursor-pointer relative">
+                        <div class="absolute -top-1 left-3 w-4 h-4 bg-[#ee7c18] text-[10px] font-semibold p-1 flex justify-center items-center rounded-full">1</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                          </svg>
+                    </div>
+                    <div class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                          </svg>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- hero section -->
+        <div class="container flex flex-row justify-between items-center py-16">
+            <div class="w-[32%] flex flex-col space-y-12">
+                <div class="text-gray-800">
+                    <h2 class="font-semibold text-xl uppercase">Now Taking online orders</h2>
+                    <p class="font-medium text-[17px] font-sans mt-3">Green will be distracted by the readable content of a
+                        page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like readable 
+                        English.</p>
+                </div>
+                <div class="flex items-center">
+                    <div class="w-3/5">
+                        <a href="#" class="relative inline bg-[#2b2b2b] font-semibold text-lg py-3 px-10 rounded-lg capitalize shadow-one hover:bg-[#7ad592] hover:text-gray-800 group">
+                            <div class="absolute -top-0 -right-1 w-10 h-full bg-[#2b2b2b] transform -skew-x-[25deg] rounded-tr-xl rounded-br-md group-hover:bg-[#7ad592]"></div>
+                            Add to cart
+                        </a>
+                    </div>
+                    <div class="w-2/5 text-right">
+                        <p class="text-4xl font-extrabold text-gray-800">$4.97<span class="text-sm">/kg</span> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[30%] flex flex-col items-center">
+                <div class="leading-[.8] text-gray-900 text-center flex flex-col space-y-6">
+                    <h1 class="text-[106px] uppercase font-[Poppins]">Feltea</h1>
+                    <p class="text-5xl uppercase">green tea</p>
+                </div>
+                <div class="w-full h-[435px] mt-4 hover:scale-105 transition-all">
+                    <img src="./img/TEA-BAGS.png" class="w-full h-full object-cover drop-shadow-one" alt="">
+                </div>
+            </div>
+            <div class="w-[30%] flex flex-col items-end space-y-32">
+                <div class="relative w-[45%] pt-4 pb-6 px-4 leading-normal text-[#0d5958] bg-[#ffed8e] rounded-xl shadow-one z-50 hover:scale-110 transition-all">
+                    <div class="absolute -top-[30px] left-0 h-20 w-[148px] transform skew-y-[155deg] rounded-tl-xl rounded-tr-3xl -z-10 bg-[#ffed8e] shadow-two"></div>
+                    <div class="absolute -top-10 right-4 font-bold text-sm">01</div>
+                    <p class="uppercase text-sm font-bold mb-3">ingredients</p>
+                    <h2 class="text-[24px] font-bold leading-[.8]">100%</h2>
+                    <h4 class="text-[18px] lowercase font-semibold">organic</h4>
+                </div>
+                <div class="relative w-[45%] pt-4 pb-6 px-4 leading-normal text-[#0d5958] bg-[#ffed8e] rounded-xl shadow-one z-50 hover:scale-110 transition-all">
+                    <div class="absolute -top-[30px] left-0 h-20 w-[148px] transform skew-y-[155deg] rounded-tl-xl rounded-tr-3xl -z-10 bg-[#ffed8e] shadow-two"></div>
+                    <div class="absolute -top-10 right-4 font-bold text-sm">02</div>
+                    <p class="uppercase text-sm font-bold mb-3">flavors</p>
+                    <h2 class="text-[24px] font-bold leading-[.8]">9</h2>
+                    <h4 class="text-[18px] lowercase font-semibold">variants</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
